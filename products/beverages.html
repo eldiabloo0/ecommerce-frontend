@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مشروبات - بيت الجملة</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="../index.html" class="logo">بيت الجملة</a>
+        <input type="text" class="search-bar" placeholder="ابحث عن منتج...">
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+          <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="../about.html">عن المتجر</a></li>
+            <li><a href="../categories.html">الأقسام</a></li>
+            <li><a href="../cart.html">عربة التسوق <span class="cart-count"></span></a></li>
+            <li><a href="../contact.html">اتصل بنا</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="products-page">
+    <div class="container">
+      <h1>مشروبات</h1>
+      
+      <div class="products-grid">
+        <div class="product-card" data-category="beverages">
+          <img src="../images/water.jpg" alt="مياه معدنية">
+          <h3>مياه معدنية</h3>
+          <p class="product-price">5 ج.م/زجاجة</p>
+          <button class="add-to-cart"
+                  data-id="bev-001"
+                  data-name="مياه معدنية"
+                  data-price="5"
+                  data-image="../images/water.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="beverages">
+          <img src="../images/juice.jpg" alt="عصير برتقال">
+          <h3>عصير برتقال</h3>
+          <p class="product-price">25 ج.م/لتر</p>
+          <button class="add-to-cart"
+                  data-id="bev-002"
+                  data-name="عصير برتقال"
+                  data-price="25"
+                  data-image="../images/juice.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="beverages">
+          <img src="../images/tea.jpg" alt="شاي">
+          <h3>شاي</h3>
+          <p class="product-price">40 ج.م/علبة</p>
+          <button class="add-to-cart"
+                  data-id="bev-003"
+                  data-name="شاي"
+                  data-price="40"
+                  data-image="../images/tea.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="beverages">
+          <img src="../images/coffee.jpg" alt="قهوة">
+          <h3>قهوة</h3>
+          <p class="product-price">60 ج.م/علبة</p>
+          <button class="add-to-cart"
+                  data-id="bev-004"
+                  data-name="قهوة"
+                  data-price="60"
+                  data-image="../images/coffee.jpg">
+            أضف للسلة
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 بيت الجملة. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'932512adc9477be2',t:'MTc0NDk4ODg1OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

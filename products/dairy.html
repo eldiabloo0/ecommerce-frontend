@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ألبان - بيت الجملة</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="../index.html" class="logo">بيت الجملة</a>
+        <input type="text" class="search-bar" placeholder="ابحث عن منتج...">
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+          <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="../about.html">عن المتجر</a></li>
+            <li><a href="../categories.html">الأقسام</a></li>
+            <li><a href="../cart.html">عربة التسوق <span class="cart-count"></span></a></li>
+            <li><a href="../contact.html">اتصل بنا</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="products-page">
+    <div class="container">
+      <h1>منتجات الألبان</h1>
+      
+      <div class="products-grid">
+        <div class="product-card" data-category="dairy">
+          <img src="../images/milk.jpg" alt="لبن زبادي">
+          <h3>لبن زبادي</h3>
+          <p class="product-price">8 ج.م/علبة</p>
+          <button class="add-to-cart"
+                  data-id="dry-001"
+                  data-name="لبن زبادي"
+                  data-price="8"
+                  data-image="../images/milk.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="dairy">
+          <img src="../images/cheese.jpg" alt="جبنة رومي">
+          <h3>جبنة رومي</h3>
+          <p class="product-price">120 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="dry-002"
+                  data-name="جبنة رومي"
+                  data-price="120"
+                  data-image="../images/cheese.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="dairy">
+          <img src="../images/butter.jpg" alt="زبدة">
+          <h3>زبدة</h3>
+          <p class="product-price">45 ج.م/عبوة</p>
+          <button class="add-to-cart"
+                  data-id="dry-003"
+                  data-name="زبدة"
+                  data-price="45"
+                  data-image="../images/butter.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="dairy">
+          <img src="../images/yogurt.jpg" alt="زبادي">
+          <h3>زبادي</h3>
+          <p class="product-price">6 ج.م/كوب</p>
+          <button class="add-to-cart"
+                  data-id="dry-004"
+                  data-name="زبادي"
+                  data-price="6"
+                  data-image="../images/yogurt.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="dairy">
+          <img src="../images/cream.jpg" alt="قشطة">
+          <h3>قشطة</h3>
+          <p class="product-price">30 ج.م/علبة</p>
+          <button class="add-to-cart"
+                  data-id="dry-005"
+                  data-name="قشطة"
+                  data-price="30"
+                  data-image="../images/cream.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="dairy">
+          <img src="../images/white-cheese.jpg" alt="جبنة بيضاء">
+          <h3>جبنة بيضاء</h3>
+          <p class="product-price">40 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="dry-006"
+                  data-name="جبنة بيضاء"
+                  data-price="40"
+                  data-image="../images/white-cheese.jpg">
+            أضف للسلة
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 بيت الجملة. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'932512ac5930adb2',t:'MTc0NDk4ODg1OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

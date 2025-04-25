@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فواكه وخضروات - بيت الجملة</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="../index.html" class="logo">بيت الجملة</a>
+        <input type="text" class="search-bar" placeholder="ابحث عن منتج...">
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+          <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="../about.html">عن المتجر</a></li>
+            <li><a href="../categories.html">الأقسام</a></li>
+            <li><a href="../cart.html">عربة التسوق <span class="cart-count"></span></a></li>
+            <li><a href="../contact.html">اتصل بنا</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="products-page">
+    <div class="container">
+      <h1>فواكه وخضروات طازجة</h1>
+      
+      <div class="products-grid">
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/apple.jpg" alt="تفاح أحمر">
+          <h3>تفاح أحمر</h3>
+          <p class="product-price">25 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-001"
+                  data-name="تفاح أحمر"
+                  data-price="25"
+                  data-image="../images/apple.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/banana.jpg" alt="موز">
+          <h3>موز</h3>
+          <p class="product-price">15 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-002"
+                  data-name="موز"
+                  data-price="15"
+                  data-image="../images/banana.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/tomato.jpg" alt="طماطم">
+          <h3>طماطم</h3>
+          <p class="product-price">12 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-003"
+                  data-name="طماطم"
+                  data-price="12"
+                  data-image="../images/tomato.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/orange.jpg" alt="برتقال">
+          <h3>برتقال</h3>
+          <p class="product-price">18 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-004"
+                  data-name="برتقال"
+                  data-price="18"
+                  data-image="../images/orange.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/potato.jpg" alt="بطاطس">
+          <h3>بطاطس</h3>
+          <p class="product-price">10 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-005"
+                  data-name="بطاطس"
+                  data-price="10"
+                  data-image="../images/potato.jpg">
+            أضف للسلة
+          </button>
+        </div>
+        
+        <div class="product-card" data-category="fruits-veggies">
+          <img src="../images/cucumber.jpg" alt="خيار">
+          <h3>خيار</h3>
+          <p class="product-price">14 ج.م/كجم</p>
+          <button class="add-to-cart"
+                  data-id="fv-006"
+                  data-name="خيار"
+                  data-price="14"
+                  data-image="../images/cucumber.jpg">
+            أضف للسلة
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 بيت الجملة. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'932512ae2b4a8bba',t:'MTc0NDk4ODg1OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
